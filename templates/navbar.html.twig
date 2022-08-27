@@ -1,39 +1,54 @@
+<style>
 
+	nav {
+		display: flex;
+		height: 5rem;
+	}
+    .navbar-brand{
+        flex: 50%;
+        margin-left: 3rem;
+    }
+
+	.navbar-nav {
+		display: flex;
+		flex: 30%;
+		align-items: right;
+	}
+</style>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-    <a class="navbar-brand" href="{{ path('home') }}">MRSport</a>
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+	<a class="navbar-brand" href="{{ path('home') }}">MRSport</a>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
 
-        <ul class="navbar-nav">
+	<div class="collapse navbar-collapse" id="navbarNav">
 
-            <li class="nav-item active">
-                <a class="nav-link" href="{{ path('home') }}">Home</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="{{ path('app_glasses') }}">glasses</a>
-            </li>
-            <li class="nav-item active">
-                    <a class="nav-link" href="{{ path('app_team') }}">team</a>
-                </li>
-            <li class="nav-item active">
-                    <a class="nav-link" href="{{ path('app_business') }}">business</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="{{ path('app_subscription') }}">subscription</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="{{ path('app_instructor') }}">instructor</a>
-                </li>
-            
-                    
-            
-        </ul>
+		<ul class="navbar-nav">
 
-    </div>
+			<li class="nav-item active">
+				<a class="nav-link" href="{{ path('home') }}">Home</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="{{ path('app_glasses') }}">Glasses</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="{{ path('app_team') }}">Team</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="{{ path('app_business') }}">Business</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="{{ path('app_subscription') }}">Subscription</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="{{ path('app_instructor') }}">Instructor</a>
+			</li>
+
+
+		</ul>
+
+	</div>
 </nav>

@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+a:hover{
+    color:  #2d343e;
+}
+
 h1 {
     color: #2d343e;
     font-size: 30px;
@@ -28,4 +32,12 @@ h1 {
 p {
     padding: 5%;
     width: 80%;
+}
+
+#navbarNav{
+    color:red;
+}
+
+a:hover{
+    color: #bfcad9 !important;
 }
