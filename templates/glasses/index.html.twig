@@ -1,25 +1,27 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello GlassesController!{% endblock %}
+{% block title %}MR Glasses{% endblock %}
 
 {% block body %}
-<style>
+<!--<style>
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+</style>>-->
 
 <div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-      <p>The MRSport glasses are light and easy to use, they are adapted for everyone at any age. <br>
-They are entirely interactive, there is no need for external <br>
-Control the mixed reality in your glasses with your fingers. <br>
+    <h1>Mixed Reality Glasses</h1>
+    <div class="text-content">
+      <p>The MRSport glasses are light and easy to use, they are adapted <b>for everyone</b> at any age. <br>
+They are entirely <b>interactive</b>, there is no need for external control!
+<br>The mixed reality in your glasses with your fingers. <br>
 The glasses are interactive and connected with the teacher. <br>
 Follow the course remotely. <br>
 Interact with people all over the world. <br>
-Purchase glasses in the shop, subscribe to our plan to get glasses and courses.</p>
-         </ul>
+Purchase glasses in the <u>shop</u>, subscribe to our plan to get glasses and courses.</p>
+         <div class="glasses">
+    <img style=" width:600px; " src="{{ asset('assets/images/glassesdraft.png') }}" alt="glasses">
+    </div>
 </div>
+</div>
+       
 {% endblock %}
