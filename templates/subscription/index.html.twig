@@ -1,20 +1,31 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello SubscriptionController!{% endblock %}
+{% block title %}Hello SubscriptionController!
+{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+	<div class="example-wrapper">
+		<h2>Flexible subscription for all type of fitness people.</h2>
+		<div class="text-content">
+			<p>
+				Subscribe to our
+				<b>basic plan</b>
+				to get glasses and start courses.
+				<br>
+				Subscribe to our
+				<b>standard plan</b>
+				to get glasses and some courses are free.<br>
+				Subscribe to our
+				<b>premium plan</b>
+				to get glasses, unlimited courses and gym membership to your local gym.<br>
+				There are 3 way to get the glasses: subscription, leasing and payment.
+				<br>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/Users/rayen/Documents/GitHub/sportstech-22-team-3/src/Controller/SubscriptionController.php'|file_link(0) }}">src/Controller/SubscriptionController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/Users/rayen/Documents/GitHub/sportstech-22-team-3/templates/subscription/index.html.twig'|file_link(0) }}">templates/subscription/index.html.twig</a></code></li>
-    </ul>
-</div>
+			</p>
+			<div class="glasses">
+				<img style=" width:600px; " src="{{ asset('assets/images/photohome.jpg') }}" alt="man with glasses">
+			</div>
+		</div>
+	</div>
 {% endblock %}
