@@ -5,14 +5,13 @@
 }
 
 h1 {
-    padding: 10px;
     color: #2d343e;
     font-size: 30px;
     font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10%;
+    padding: 3%;
 }
 
 .text-content {
